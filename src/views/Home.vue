@@ -1,10 +1,6 @@
 <template>
   <div class="wrapper">
-    <parallax
-      class="section page-header header-filter"
-      parallax-active="true"
-      :style="headerStyle"
-    >
+    <parallax class="section page-header header-filter" parallax-active="true" :style="headerStyle">
       <div class="container">
         <div class="md-layout">
           <div class="md-layout-item md-size-50 md-small-size-100">
@@ -15,13 +11,14 @@
               information that can make you or your product create the first
               impression.
             </h4>
-            <br />
+            <br>
             <md-button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               class="md-success md-lg"
               target="_blank"
-              ><i class="fas fa-play"></i> Watch video</md-button
             >
+              <i class="fas fa-play"></i> Watch video
+            </md-button>
           </div>
         </div>
       </div>
@@ -30,9 +27,7 @@
       <div class="section">
         <div class="container">
           <div class="md-layout">
-            <div
-              class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center"
-            >
+            <div class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center">
               <h2 class="title text-center">Let's talk product</h2>
               <h5 class="description">
                 This is the paragraph where you can write more details about
@@ -111,21 +106,15 @@
                     </p>
                   </template>
                   <template slot="cardAction">
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-twitter md-just-icon md-simple"
-                      ><i class="fab fa-twitter"></i
-                    ></md-button>
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-facebook md-just-icon md-simple"
-                      ><i class="fab fa-facebook"></i
-                    ></md-button>
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-google md-just-icon md-simple"
-                      ><i class="fab fa-google"></i
-                    ></md-button>
+                    <md-button href="javascript:void(0)" class="md-twitter md-just-icon md-simple">
+                      <i class="fab fa-twitter"></i>
+                    </md-button>
+                    <md-button href="javascript:void(0)" class="md-facebook md-just-icon md-simple">
+                      <i class="fab fa-facebook"></i>
+                    </md-button>
+                    <md-button href="javascript:void(0)" class="md-google md-just-icon md-simple">
+                      <i class="fab fa-google"></i>
+                    </md-button>
                   </template>
                 </profile-card>
               </div>
@@ -147,26 +136,18 @@
                     </p>
                   </template>
                   <template slot="cardAction">
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-linkedin md-just-icon md-simple"
-                      ><i class="fab fa-linkedin"></i
-                    ></md-button>
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-facebook md-just-icon md-simple"
-                      ><i class="fab fa-facebook"></i
-                    ></md-button>
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-dribbble md-just-icon md-simple"
-                      ><i class="fab fa-dribbble"></i
-                    ></md-button>
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-google md-just-icon md-simple"
-                      ><i class="fab fa-google"></i
-                    ></md-button>
+                    <md-button href="javascript:void(0)" class="md-linkedin md-just-icon md-simple">
+                      <i class="fab fa-linkedin"></i>
+                    </md-button>
+                    <md-button href="javascript:void(0)" class="md-facebook md-just-icon md-simple">
+                      <i class="fab fa-facebook"></i>
+                    </md-button>
+                    <md-button href="javascript:void(0)" class="md-dribbble md-just-icon md-simple">
+                      <i class="fab fa-dribbble"></i>
+                    </md-button>
+                    <md-button href="javascript:void(0)" class="md-google md-just-icon md-simple">
+                      <i class="fab fa-google"></i>
+                    </md-button>
                   </template>
                 </profile-card>
               </div>
@@ -188,21 +169,18 @@
                     </p>
                   </template>
                   <template slot="cardAction">
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-youtube md-just-icon md-simple"
-                      ><i class="fab fa-youtube"></i
-                    ></md-button>
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-twitter md-just-icon md-simple"
-                      ><i class="fab fa-twitter"></i
-                    ></md-button>
+                    <md-button href="javascript:void(0)" class="md-youtube md-just-icon md-simple">
+                      <i class="fab fa-youtube"></i>
+                    </md-button>
+                    <md-button href="javascript:void(0)" class="md-twitter md-just-icon md-simple">
+                      <i class="fab fa-twitter"></i>
+                    </md-button>
                     <md-button
                       href="javascript:void(0)"
                       class="md-instagram md-just-icon md-simple"
-                      ><i class="fab fa-instagram"></i
-                    ></md-button>
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </md-button>
                   </template>
                 </profile-card>
               </div>
@@ -224,21 +202,15 @@
                     </p>
                   </template>
                   <template slot="cardAction">
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-linkedin md-just-icon md-simple"
-                      ><i class="fab fa-linkedin"></i
-                    ></md-button>
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-facebook md-just-icon md-simple"
-                      ><i class="fab fa-facebook"></i
-                    ></md-button>
-                    <md-button
-                      href="javascript:void(0)"
-                      class="md-google md-just-icon md-simple"
-                      ><i class="fab fa-google"></i
-                    ></md-button>
+                    <md-button href="javascript:void(0)" class="md-linkedin md-just-icon md-simple">
+                      <i class="fab fa-linkedin"></i>
+                    </md-button>
+                    <md-button href="javascript:void(0)" class="md-facebook md-just-icon md-simple">
+                      <i class="fab fa-facebook"></i>
+                    </md-button>
+                    <md-button href="javascript:void(0)" class="md-google md-just-icon md-simple">
+                      <i class="fab fa-google"></i>
+                    </md-button>
                   </template>
                 </profile-card>
               </div>
@@ -277,9 +249,7 @@
                   <md-textarea v-model="message"></md-textarea>
                 </md-field>
                 <div class="md-layout">
-                  <div
-                    class="md-layout-item md-size-33 md-small-size-100 mx-auto text-center"
-                  >
+                  <div class="md-layout-item md-size-33 md-small-size-100 mx-auto text-center">
                     <md-button class="md-success">Send Message</md-button>
                   </div>
                 </div>
@@ -293,42 +263,43 @@
 </template>
 
 <script>
-import { ProfileCard } from "@/components";
-import Mixins from "@/plugins/basicMixins";
+import { ProfileCard } from '@/components';
+import Mixins from '@/plugins/basicMixins';
 
 export default {
-  mixins: [Mixins.HeaderImage],
-  components: {
-    ProfileCard
-  },
-  bodyClass: "landing-page",
-  data() {
-    return {
-      image: require("@/assets/img/bg7.jpg"),
-      name: null,
-      email: null,
-      message: null,
-      cardProfile3: {
-        cardProfile1: require("@/assets/img/faces/card-profile1-square.jpg"),
-        cardProfile2: require("@/assets/img/faces/card-profile6-square.jpg"),
-        cardProfile3: require("@/assets/img/faces/card-profile4-square.jpg"),
-        cardProfile4: require("@/assets/img/faces/card-profile2-square.jpg")
-      }
-    };
-  }
+    name: 'AppLanding',
+    mixins: [Mixins.HeaderImage],
+    components: {
+        ProfileCard
+    },
+    bodyClass: 'landing-page',
+    data() {
+        return {
+            image: require('@/assets/img/bg7.jpg'),
+            name: null,
+            email: null,
+            message: null,
+            cardProfile3: {
+                cardProfile1: require('@/assets/img/faces/card-profile1-square.jpg'),
+                cardProfile2: require('@/assets/img/faces/card-profile6-square.jpg'),
+                cardProfile3: require('@/assets/img/faces/card-profile4-square.jpg'),
+                cardProfile4: require('@/assets/img/faces/card-profile2-square.jpg')
+            }
+        };
+    }
 };
 </script>
 
 <style lang="scss" scoped>
 .md-card-actions.text-center {
-  display: flex;
-  justify-content: center !important;
+    display: flex;
+    justify-content: center !important;
 }
 .contact-form {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .md-has-textarea + .md-layout {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 </style>

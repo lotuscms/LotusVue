@@ -7,39 +7,28 @@
     }"
     :data-background-color="backgroundColor"
   >
-    <template
-      v-if="$route.name !== 'ecommerce-page' && $route.name !== 'presentation'"
-    >
+    <template v-if="$route.name !== 'ecommerce-page' && $route.name !== 'presentation'">
       <div class="container">
         <nav>
           <ul>
             <li>
-              <a href="https://www.creative-tim.com">
-                Creative Tim
-              </a>
+              <a href="https://www.creative-tim.com">Creative Tim</a>
             </li>
             <li>
-              <a href="https://www.creative-tim.com/presentation">
-                About Us
-              </a>
+              <a href="https://www.creative-tim.com/presentation">About Us</a>
             </li>
             <li>
-              <a href="http://blog.creative-tim.com">
-                Blog
-              </a>
+              <a href="http://blog.creative-tim.com">Blog</a>
             </li>
             <li>
-              <a href="https://www.creative-tim.com/license">
-                Licenses
-              </a>
+              <a href="https://www.creative-tim.com/license">Licenses</a>
             </li>
           </ul>
         </nav>
         <div class="copyright">
-          &copy; {{ year }}, made with <md-icon>favorite</md-icon> by
-          <a href="https://www.creative-tim.com/" target="_blank"
-            >Creative Tim</a
-          >
+          &copy; {{ year }}, made with
+          <md-icon>favorite</md-icon>by
+          <a href="https://www.creative-tim.com/" target="_blank">Creative Tim</a>
           for a better web.
         </div>
       </div>
@@ -86,84 +75,64 @@
             <div class="md-layout-item md-size-33 md-small-size-100">
               <h5>Instagram Feed</h5>
               <div class="gallery-feed">
-                <img :src="img1" class="img img-raised rounded" alt="" />
-                <img :src="img2" class="img img-raised rounded" alt="" />
-                <img :src="img3" class="img img-raised rounded" alt="" />
-                <img :src="img4" class="img img-raised rounded" alt="" />
+                <img :src="img1" class="img img-raised rounded" alt>
+                <img :src="img2" class="img img-raised rounded" alt>
+                <img :src="img3" class="img img-raised rounded" alt>
+                <img :src="img4" class="img img-raised rounded" alt>
 
-                <img :src="img5" class="img img-raised rounded" alt="" />
-                <img :src="img6" class="img img-raised rounded" alt="" />
-                <img :src="img7" class="img img-raised rounded" alt="" />
-                <img :src="img8" class="img img-raised rounded" alt="" />
+                <img :src="img5" class="img img-raised rounded" alt>
+                <img :src="img6" class="img img-raised rounded" alt>
+                <img :src="img7" class="img img-raised rounded" alt>
+                <img :src="img8" class="img img-raised rounded" alt>
               </div>
             </div>
           </div>
         </div>
 
-        <hr />
+        <hr>
 
         <div class="flex flex-direction-row space-between">
           <nav>
             <ul>
               <li>
-                <a href="javascript:void(0)">
-                  Blog
-                </a>
+                <a href="javascript:void(0)">Blog</a>
               </li>
               <li>
-                <a href="javascript:void(0)">
-                  Presentation
-                </a>
+                <a href="javascript:void(0)">Presentation</a>
               </li>
               <li>
-                <a href="javascript:void(0)">
-                  Discover
-                </a>
+                <a href="javascript:void(0)">Discover</a>
               </li>
               <li>
-                <a href="javascript:void(0)">
-                  Payment
-                </a>
+                <a href="javascript:void(0)">Payment</a>
               </li>
               <li>
-                <a href="javascript:void(0)">
-                  Contact Us
-                </a>
+                <a href="javascript:void(0)">Contact Us</a>
               </li>
             </ul>
           </nav>
-          <div class="copyright float-right">
-            Copyright © {{ year }} Creative Tim All Rights Reserved.
-          </div>
+          <div
+            class="copyright float-right"
+          >Copyright © {{ year }} Creative Tim All Rights Reserved.</div>
         </div>
       </div>
     </template>
 
     <template v-else>
       <div class="container flex-direction-row">
-        <a class="footer-brand" href="http://www.creative-tim.com"
-          >Material Kit PRO</a
-        >
+        <a class="footer-brand" href="http://www.creative-tim.com">Material Kit PRO</a>
         <ul>
           <li>
-            <a href="javascript:void(0)">
-              Creative Tim
-            </a>
+            <a href="javascript:void(0)">Creative Tim</a>
           </li>
           <li>
-            <a href="javascript:void(0)">
-              About Us
-            </a>
+            <a href="javascript:void(0)">About Us</a>
           </li>
           <li>
-            <a href="javascript:void(0)">
-              Blog
-            </a>
+            <a href="javascript:void(0)">Blog</a>
           </li>
           <li>
-            <a href="javascript:void(0)">
-              Licenses
-            </a>
+            <a href="javascript:void(0)">Licenses</a>
           </li>
         </ul>
 
@@ -202,24 +171,24 @@
 </template>
 <script>
 export default {
-  props: {
-    backgroundColor: String,
-    type: String,
-    size: String
-  },
-  data() {
-    return {
-      year: new Date().getFullYear(),
-      img1: require("@/assets/img/faces/card-profile6-square.jpg"),
-      img2: require("@/assets/img/faces/christian.jpg"),
-      img3: require("@/assets/img/faces/card-profile4-square.jpg"),
-      img4: require("@/assets/img/faces/card-profile1-square.jpg"),
-      img5: require("@/assets/img/faces/marc.jpg"),
-      img6: require("@/assets/img/faces/kendall.jpg"),
-      img7: require("@/assets/img/faces/card-profile5-square.jpg"),
-      img8: require("@/assets/img/faces/card-profile2-square.jpg")
-    };
-  }
+    props: {
+        backgroundColor: String,
+        type: String,
+        size: String
+    },
+    data() {
+        return {
+            year: new Date().getFullYear(),
+            img1: require('@/assets/img/faces/card-profile6-square.jpg'),
+            img2: require('@/assets/img/faces/christian.jpg'),
+            img3: require('@/assets/img/faces/card-profile4-square.jpg'),
+            img4: require('@/assets/img/faces/card-profile1-square.jpg'),
+            img5: require('@/assets/img/faces/marc.jpg'),
+            img6: require('@/assets/img/faces/kendall.jpg'),
+            img7: require('@/assets/img/faces/card-profile5-square.jpg'),
+            img8: require('@/assets/img/faces/card-profile2-square.jpg')
+        };
+    }
 };
 </script>
 <style></style>
