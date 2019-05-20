@@ -1,6 +1,10 @@
 <template>
   <div class="wrapper">
-    <parallax class="section page-header header-filter" parallax-active="true" :style="headerStyle">
+    <parallax
+      class="section page-header header-filter"
+      parallax-active="true"
+      :style="headerStyle"
+    >
       <div class="container">
         <div class="md-layout">
           <div class="md-layout-item md-size-50 md-small-size-100">
@@ -11,14 +15,7 @@
               information that can make you or your product create the first
               impression.
             </h4>
-            <br>
-            <md-button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              class="md-success md-lg"
-              target="_blank"
-            >
-              <i class="fas fa-play"></i> Watch video
-            </md-button>
+            <br />
           </div>
         </div>
       </div>
@@ -27,8 +24,12 @@
       <div class="section">
         <div class="container">
           <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center">
-              <h2 class="title text-center">Let's talk product</h2>
+            <div
+              class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center"
+            >
+              <h2 class="title text-center">
+                Let's talk product
+              </h2>
               <h5 class="description">
                 This is the paragraph where you can write more details about
                 your product. Keep you user engaged by providing meaningful
@@ -98,21 +99,34 @@
                   :card-image="cardProfile3.cardProfile1"
                 >
                   <template slot="cardContent">
-                    <h4 class="card-title">Alec Thompson</h4>
-                    <h6 class="card-category text-muted">Founder</h6>
+                    <h4 class="card-title">
+                      Casey Clayton
+                    </h4>
+                    <h6 class="card-category text-muted">
+                      Founder
+                    </h6>
                     <p class="card-description">
                       Don't be scared of the truth because we need to restart
                       the human foundation in truth...
                     </p>
                   </template>
                   <template slot="cardAction">
-                    <md-button href="javascript:void(0)" class="md-twitter md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-twitter md-just-icon md-simple"
+                    >
                       <i class="fab fa-twitter"></i>
                     </md-button>
-                    <md-button href="javascript:void(0)" class="md-facebook md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-facebook md-just-icon md-simple"
+                    >
                       <i class="fab fa-facebook"></i>
                     </md-button>
-                    <md-button href="javascript:void(0)" class="md-google md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-google md-just-icon md-simple"
+                    >
                       <i class="fab fa-google"></i>
                     </md-button>
                   </template>
@@ -128,24 +142,40 @@
                   :card-image="cardProfile3.cardProfile2"
                 >
                   <template slot="cardContent">
-                    <h4 class="card-title">Kendall Andrew</h4>
-                    <h6 class="card-category text-muted">GRAPHIC DESIGNER</h6>
+                    <h4 class="card-title">
+                      Kendall Andrew
+                    </h4>
+                    <h6 class="card-category text-muted">
+                      GRAPHIC DESIGNER
+                    </h6>
                     <p class="card-description">
                       Don't be scared of the truth because we need to restart
                       the human foundation in truth...
                     </p>
                   </template>
                   <template slot="cardAction">
-                    <md-button href="javascript:void(0)" class="md-linkedin md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-linkedin md-just-icon md-simple"
+                    >
                       <i class="fab fa-linkedin"></i>
                     </md-button>
-                    <md-button href="javascript:void(0)" class="md-facebook md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-facebook md-just-icon md-simple"
+                    >
                       <i class="fab fa-facebook"></i>
                     </md-button>
-                    <md-button href="javascript:void(0)" class="md-dribbble md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-dribbble md-just-icon md-simple"
+                    >
                       <i class="fab fa-dribbble"></i>
                     </md-button>
-                    <md-button href="javascript:void(0)" class="md-google md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-google md-just-icon md-simple"
+                    >
                       <i class="fab fa-google"></i>
                     </md-button>
                   </template>
@@ -162,17 +192,25 @@
                 >
                   <template slot="cardContent">
                     <h4 class="card-title">Gina Andrew</h4>
-                    <h6 class="card-category text-muted">PHOTOGRAPHER</h6>
+                    <h6 class="card-category text-muted">
+                      PHOTOGRAPHER
+                    </h6>
                     <p class="card-description">
                       I love you like Kanye loves Kanye. Don't be scared of the
                       truth.
                     </p>
                   </template>
                   <template slot="cardAction">
-                    <md-button href="javascript:void(0)" class="md-youtube md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-youtube md-just-icon md-simple"
+                    >
                       <i class="fab fa-youtube"></i>
                     </md-button>
-                    <md-button href="javascript:void(0)" class="md-twitter md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-twitter md-just-icon md-simple"
+                    >
                       <i class="fab fa-twitter"></i>
                     </md-button>
                     <md-button
@@ -195,20 +233,31 @@
                 >
                   <template slot="cardContent">
                     <h4 class="card-title">George West</h4>
-                    <h6 class="card-category text-muted">BACKEND HACKER</h6>
+                    <h6 class="card-category text-muted">
+                      BACKEND HACKER
+                    </h6>
                     <p class="card-description">
                       I love you like Kanye loves Kanye. Don't be scared of the
                       truth.
                     </p>
                   </template>
                   <template slot="cardAction">
-                    <md-button href="javascript:void(0)" class="md-linkedin md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-linkedin md-just-icon md-simple"
+                    >
                       <i class="fab fa-linkedin"></i>
                     </md-button>
-                    <md-button href="javascript:void(0)" class="md-facebook md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-facebook md-just-icon md-simple"
+                    >
                       <i class="fab fa-facebook"></i>
                     </md-button>
-                    <md-button href="javascript:void(0)" class="md-google md-just-icon md-simple">
+                    <md-button
+                      href="javascript:void(0)"
+                      class="md-google md-just-icon md-simple"
+                    >
                       <i class="fab fa-google"></i>
                     </md-button>
                   </template>
@@ -224,10 +273,10 @@
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
               <h2 class="text-center title">Work with us</h2>
               <h4 class="text-center description">
-                Divide details about your product or agency work into parts.
-                Write a few lines about each one and contact us about any
-                further collaboration. We will responde get back to you in a
-                couple of hours.
+                Is there a specific feature you would like to see implemented?
+                Write a few lines describing the feature and our team will
+                review it. You can check our public Trello board to see the
+                status.
               </h4>
               <form class="contact-form">
                 <div class="md-layout">
@@ -249,7 +298,9 @@
                   <md-textarea v-model="message"></md-textarea>
                 </md-field>
                 <div class="md-layout">
-                  <div class="md-layout-item md-size-33 md-small-size-100 mx-auto text-center">
+                  <div
+                    class="md-layout-item md-size-33 md-small-size-100 mx-auto text-center"
+                  >
                     <md-button class="md-success">Send Message</md-button>
                   </div>
                 </div>
@@ -267,39 +318,39 @@ import { ProfileCard } from '@/components';
 import Mixins from '@/plugins/basicMixins';
 
 export default {
-    name: 'AppLanding',
-    mixins: [Mixins.HeaderImage],
-    components: {
-        ProfileCard
-    },
-    bodyClass: 'landing-page',
-    data() {
-        return {
-            image: require('@/assets/img/bg7.jpg'),
-            name: null,
-            email: null,
-            message: null,
-            cardProfile3: {
-                cardProfile1: require('@/assets/img/faces/card-profile1-square.jpg'),
-                cardProfile2: require('@/assets/img/faces/card-profile6-square.jpg'),
-                cardProfile3: require('@/assets/img/faces/card-profile4-square.jpg'),
-                cardProfile4: require('@/assets/img/faces/card-profile2-square.jpg')
-            }
-        };
-    }
+  name: 'AppLanding',
+  mixins: [Mixins.HeaderImage],
+  components: {
+    ProfileCard
+  },
+  bodyClass: 'landing-page',
+  data() {
+    return {
+      image: require('@/assets/img/bg7.jpg'),
+      name: null,
+      email: null,
+      message: null,
+      cardProfile3: {
+        cardProfile1: require('@/assets/img/faces/card-profile-casey-square.jpg'),
+        cardProfile2: require('@/assets/img/faces/card-profile6-square.jpg'),
+        cardProfile3: require('@/assets/img/faces/card-profile4-square.jpg'),
+        cardProfile4: require('@/assets/img/faces/card-profile2-square.jpg')
+      }
+    };
+  }
 };
 </script>
 
 <style lang="scss" scoped>
 .md-card-actions.text-center {
-    display: flex;
-    justify-content: center !important;
+  display: flex;
+  justify-content: center !important;
 }
 .contact-form {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .md-has-textarea + .md-layout {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 </style>

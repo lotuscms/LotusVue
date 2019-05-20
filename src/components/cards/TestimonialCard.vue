@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: "testimonial-card",
+  name: 'testimonial-card',
   props: {
     cardPlain: Boolean
   }

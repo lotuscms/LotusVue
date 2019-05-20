@@ -34,20 +34,20 @@
 </template>
 <script>
 export default {
-  name: "pagination",
+  name: 'pagination',
   props: {
     type: {
       type: String,
-      default: "primary",
+      default: 'primary',
       validator: value => {
         return [
-          "default",
-          "primary",
-          "danger",
-          "success",
-          "warning",
-          "info",
-          "rose"
+          'default',
+          'primary',
+          'danger',
+          'success',
+          'warning',
+          'info',
+          'rose'
         ].includes(value);
       }
     },
@@ -127,25 +127,25 @@ export default {
       return arr;
     },
     changePage(item) {
-      this.$emit("input", item);
+      this.$emit('input', item);
     },
     nextPage() {
       if (this.value < this.totalPages) {
-        this.$emit("input", this.value + 1);
+        this.$emit('input', this.value + 1);
       }
     },
     prevPage() {
       if (this.value > 1) {
-        this.$emit("input", this.value - 1);
+        this.$emit('input', this.value - 1);
       }
     }
   },
   watch: {
     perPage() {
-      this.$emit("input", 1);
+      this.$emit('input', 1);
     },
     total() {
-      this.$emit("input", 1);
+      this.$emit('input', 1);
     }
   }
 };

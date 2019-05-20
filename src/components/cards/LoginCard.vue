@@ -20,11 +20,11 @@
 
 <script>
 export default {
-  name: "login-card",
+  name: 'login-card',
   props: {
     headerColor: {
       type: String,
-      default: ""
+      default: ''
     }
   },
   data() {
@@ -40,7 +40,7 @@ export default {
       this.cardHidden = false;
     },
     getClass: function(headerColor) {
-      return "md-card-header-" + headerColor + "";
+      return 'md-card-header-' + headerColor + '';
     }
   }
 };

@@ -18,7 +18,7 @@ function debounce(func, wait, immediate) {
   };
 }
 export default {
-  name: "parallax",
+  name: 'parallax',
   props: {
     parallaxActive: String
   },
@@ -45,8 +45,8 @@ export default {
   },
   mounted() {
     let self = this;
-    window.addEventListener("scroll", function() {
-      if (window.innerWidth > 991 && self.parallaxActive === "true") {
+    window.addEventListener('scroll', function() {
+      if (window.innerWidth > 991 && self.parallaxActive === 'true') {
         let scrollVal = this.scrollY;
         self.checkForParallax(scrollVal);
       }

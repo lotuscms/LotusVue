@@ -87,7 +87,7 @@
 
 <script>
 export default {
-  name: "profile-card",
+  name: 'profile-card',
   props: {
     imageLink: String,
     textCenter: Boolean,
@@ -112,7 +112,7 @@ export default {
   methods: {
     cardLink() {
       if (this.imageLink === undefined) {
-        return "javascript:void(0)";
+        return 'javascript:void(0)';
       } else {
         return this.imageLink;
       }

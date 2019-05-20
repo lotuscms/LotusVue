@@ -26,10 +26,10 @@
 </template>
 
 <script>
-import { CollapseTransition } from "vue2-transitions";
+import { CollapseTransition } from 'vue2-transitions';
 
 export default {
-  name: "collapse",
+  name: 'collapse',
   components: {
     CollapseTransition
   },
@@ -50,7 +50,7 @@ export default {
     },
     activeCollapse(index) {
       return {
-        "is-active": this.isActive == index
+        'is-active': this.isActive == index
       };
     },
     toggle(index) {
@@ -61,10 +61,10 @@ export default {
       }
     },
     getCollapseContent: function(index) {
-      return "md-collapse-pane-" + index + "";
+      return 'md-collapse-pane-' + index + '';
     },
     getColorCollapse: function(colorCollapse) {
-      return "md-" + colorCollapse + "";
+      return 'md-' + colorCollapse + '';
     }
   }
 };

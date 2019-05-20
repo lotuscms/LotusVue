@@ -67,7 +67,7 @@
 
 <script>
 export default {
-  name: "blog-card",
+  name: 'blog-card',
   props: {
     type: String,
     reverseRow: Boolean,

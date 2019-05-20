@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "full-bg-card",
+  name: 'full-bg-card',
   props: {
     cardPricing: Boolean,
     cardImage: String

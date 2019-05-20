@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "product-card",
+  name: 'product-card',
   props: {
     type: String,
     textCenter: Boolean,

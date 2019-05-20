@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: "info-areas",
+  name: 'info-areas',
   props: {
     textCenter: Boolean,
     textRight: Boolean,
@@ -37,7 +37,7 @@ export default {
   },
   computed: {
     infoColor() {
-      return this.iconColor ? `icon-${this.iconColor}` : "";
+      return this.iconColor ? `icon-${this.iconColor}` : '';
     }
   }
 };

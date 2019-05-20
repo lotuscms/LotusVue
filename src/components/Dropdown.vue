@@ -26,11 +26,11 @@
 </template>
 <script>
 export default {
-  name: "drop-down",
+  name: 'drop-down',
   props: {
     direction: {
       type: String,
-      default: "down"
+      default: 'down'
     },
     multiLevel: {
       type: Boolean,

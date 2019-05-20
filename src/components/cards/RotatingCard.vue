@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: "rotating-card",
+  name: 'rotating-card',
   props: {
     frontCardImage: String,
     backCardImage: String,
@@ -44,7 +44,7 @@ export default {
   },
   computed: {
     cardColor() {
-      return this.cardBg ? `bg-${this.cardBg}` : "";
+      return this.cardBg ? `bg-${this.cardBg}` : '';
     }
   },
   methods: {

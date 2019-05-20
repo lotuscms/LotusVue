@@ -23,7 +23,9 @@
           :key="item"
           :class="[
             { active: isActivePanel(tabName[index]) },
-            { [getColorButton(colorButton)]: isActivePanel(tabName[index]) }
+            {
+              [getColorButton(colorButton)]: isActivePanel(tabName[index])
+            }
           ]"
         >
           {{ tabName[index] }}
@@ -48,7 +50,7 @@
 
 <script>
 export default {
-  name: "tabs",
+  name: 'tabs',
   props: {
     pillsAlign: String,
     flexColumn: Boolean,
@@ -58,7 +60,7 @@ export default {
     tabIcon: Array,
     colorButton: {
       type: String,
-      default: ""
+      default: ''
     },
     tabActive: Number,
     onChange: Function
@@ -79,10 +81,10 @@ export default {
       return this.activePanel == panel;
     },
     getColorButton: function(colorButton) {
-      return "md-" + colorButton + "";
+      return 'md-' + colorButton + '';
     },
     getTabContent: function(index) {
-      return "tab-pane-" + index + "";
+      return 'tab-pane-' + index + '';
     }
   }
 };

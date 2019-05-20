@@ -84,7 +84,7 @@
 
 <script>
 export default {
-  name: "file-upload",
+  name: 'file-upload',
   props: {
     type: String,
     inputName: String,
@@ -98,8 +98,8 @@ export default {
     return {
       inputModel: null,
       inputModel2: null,
-      imageRegular: require("@/assets/img/image_placeholder.jpg"),
-      imageCircle: require("@/assets/img/placeholder.jpg"),
+      imageRegular: require('@/assets/img/image_placeholder.jpg'),
+      imageCircle: require('@/assets/img/placeholder.jpg'),
       hasImage: false
     };
   },
@@ -112,7 +112,7 @@ export default {
       let reader = new FileReader();
       let vm = this;
       reader.onload = () => {
-        if (this.type === "image-circle") {
+        if (this.type === 'image-circle') {
           vm.imageCircle = reader.result;
         } else {
           vm.imageRegular = reader.result;
@@ -122,10 +122,10 @@ export default {
       vm.hasImage = true;
     },
     removeImage: function() {
-      if (this.type === "image-circle") {
-        this.imageCircle = require("@/assets/img/placeholder.jpg");
+      if (this.type === 'image-circle') {
+        this.imageCircle = require('@/assets/img/placeholder.jpg');
       } else {
-        this.imageRegular = require("@/assets/img/image_placeholder.jpg");
+        this.imageRegular = require('@/assets/img/image_placeholder.jpg');
       }
       this.hasImage = false;
     },
@@ -137,17 +137,17 @@ export default {
       let element = document.getElementById(hiddenID);
       let visibleElem = document.getElementById(visibleID);
       let elemValue = element.value;
-      let filename = elemValue.replace(/C:\\fakepath\\/i, "");
+      let filename = elemValue.replace(/C:\\fakepath\\/i, '');
 
       visibleElem.value = filename;
     },
     newValueMultiple(visibleID, hiddenID) {
       let element = document.getElementById(hiddenID);
       let visibleElem = document.getElementById(visibleID);
-      let names = "";
+      let names = '';
       for (var i = 0; i < element.files.length; ++i) {
         if (i < element.files.length - 1) {
-          names += element.files.item(i).name + ", ";
+          names += element.files.item(i).name + ', ';
         } else {
           names += element.files.item(i).name;
         }

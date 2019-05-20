@@ -1,14 +1,14 @@
-import VueMaterial from "vue-material";
-import "vue-material/dist/vue-material.min.css";
-import "@/assets/scss/material-kit.scss";
-import "@/assets/demo.css";
-import globalDirectives from "./globalDirectives";
-import globalMixins from "./globalMixins";
-import basicMixins from "./basicMixins";
-import globalComponents from "./globalComponents";
-import VueLazyload from "vue-lazyload";
-import VueGitHubButtons from "vue-github-buttons";
-import "vue-github-buttons/dist/vue-github-buttons.css";
+import VueMaterial from 'vue-material';
+import 'vue-material/dist/vue-material.min.css';
+import '@/assets/scss/material-kit.scss';
+import '@/assets/demo.css';
+import globalDirectives from './globalDirectives';
+import globalMixins from './globalMixins';
+import basicMixins from './basicMixins';
+import globalComponents from './globalComponents';
+import VueLazyload from 'vue-lazyload';
+import VueGitHubButtons from 'vue-github-buttons';
+import 'vue-github-buttons/dist/vue-github-buttons.css';
 
 export default {
   install(Vue) {
@@ -21,7 +21,7 @@ export default {
       observer: true,
       // optional
       observerOptions: {
-        rootMargin: "0px",
+        rootMargin: '0px',
         threshold: 0.1
       }
     });

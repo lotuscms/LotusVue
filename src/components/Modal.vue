@@ -41,10 +41,10 @@
 </template>
 
 <script>
-import { SlideYUpTransition } from "vue2-transitions";
+import { SlideYUpTransition } from 'vue2-transitions';
 
 export default {
-  name: "modal",
+  name: 'modal',
   components: {
     SlideYUpTransition
   },
@@ -55,7 +55,7 @@ export default {
   },
   methods: {
     closeModal: function() {
-      this.$emit("close");
+      this.$emit('close');
     }
   }
 };

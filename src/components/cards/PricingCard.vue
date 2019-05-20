@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: "pricing-card",
+  name: 'pricing-card',
   props: {
     cardPlain: Boolean,
     cardBg: String,
@@ -27,7 +27,7 @@ export default {
   },
   computed: {
     cardColor() {
-      return this.cardBg ? `bg-${this.cardBg}` : "";
+      return this.cardBg ? `bg-${this.cardBg}` : '';
     }
   },
   methods: {
