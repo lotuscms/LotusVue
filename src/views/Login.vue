@@ -53,8 +53,9 @@ export default {
     login() {
       // TODO: Implement using GraphQL Login functionality
       console.log(
-        'Login: ' + { email: this.email, password: this.password }.toString()
+        `Login: { email: ${this.email}, password: ${this.password} }`
       );
+      this.$router.push({ name: 'home' }); // TODO: Should verify login was success first
     }
   }
 };
