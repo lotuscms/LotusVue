@@ -34,7 +34,7 @@ export default {
   mixins: [Mixins.HeaderImage],
   data() {
     return {
-      image: require('@/assets/img/bfa-header-bg.jpg')
+      image: require('@/assets/img/bg-header-1.jpg')
     };
   }
 };

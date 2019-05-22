@@ -57,6 +57,32 @@
                   </div>
                 </a>
               </router-link>
+              <router-link tag="li" class="md-list-item" :to="{ name: 'login' }">
+                <a
+                  href="javascript:void(0)"
+                  class="md-list-item-router md-list-item-container md-button-clean"
+                >
+                  <div class="md-list-item-content">
+                    <md-button slot="title" class="md-button md-button-link md-white md-simple">
+                      <i class="material-icons">fingerprint</i>
+                      <p>Login</p>
+                    </md-button>
+                  </div>
+                </a>
+              </router-link>
+              <router-link tag="li" class="md-list-item" :to="{ name: 'register' }">
+                <a
+                  href="javascript:void(0)"
+                  class="md-list-item-router md-list-item-container md-button-clean"
+                >
+                  <div class="md-list-item-content">
+                    <md-button slot="title" class="md-button md-button-link md-white md-simple">
+                      <i class="material-icons">how_to_reg</i>
+                      <p>Register</p>
+                    </md-button>
+                  </div>
+                </a>
+              </router-link>
             </md-list>
           </div>
         </div>

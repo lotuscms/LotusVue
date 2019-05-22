@@ -36,6 +36,26 @@ export default new Router({
         footer: MainFooter
       },
       props: defaultProps
+    },
+    {
+      path: '/register',
+      name: 'register',
+      components: {
+        default: () =>
+          import(/* webpackChunkName: "register" */ '@/views/Register.vue'),
+        header: MainNavbar
+      },
+      props: defaultProps
+    },
+    {
+      path: '/login',
+      name: 'login',
+      components: {
+        default: () =>
+          import(/* webpackChunkName: "register" */ '@/views/Login.vue'),
+        header: MainNavbar
+      },
+      props: defaultProps
     }
     // {
     //   path: '/about',

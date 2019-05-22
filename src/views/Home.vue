@@ -37,7 +37,7 @@ export default {
   bodyClass: 'landing-page',
   data() {
     return {
-      image: require('@/assets/img/bg-header-home.jpg')
+      image: require('@/assets/img/bg-header-2.jpg')
     };
   }
 };
