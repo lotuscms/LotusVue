@@ -8,6 +8,10 @@ import Home from '@/views/Home.vue';
 
 Vue.use(Router);
 
+const defaultProps = {
+  header: { colorOnScroll: 400, navbarTransparent: true }
+};
+
 export default new Router({
   routes: [
     {
@@ -18,9 +22,20 @@ export default new Router({
         header: MainNavbar,
         footer: MainFooter
       },
-      props: {
-        header: { colorOnScroll: 400, navbarTransparent: true }
-      }
+      props: defaultProps
+    },
+    {
+      path: '/how-to-connect',
+      name: 'howToConnect',
+      components: {
+        default: () =>
+          import(
+            /* webpackChunkName: "howToConnect" */ '@/views/HowToConnect.vue'
+          ),
+        header: MainNavbar,
+        footer: MainFooter
+      },
+      props: defaultProps
     }
     // {
     //   path: '/about',
@@ -31,5 +46,12 @@ export default new Router({
     //   component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     // }
   ],
-  mode: 'history'
+  mode: 'history',
+  scrollBehavior: to => {
+    if (to.hash) {
+      return { selector: to.hash };
+    } else {
+      return { x: 0, y: 0 };
+    }
+  }
 });
