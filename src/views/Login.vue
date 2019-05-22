@@ -17,9 +17,13 @@
               <md-field class="md-form-group" slot="inputs">
                 <md-icon>lock_outline</md-icon>
                 <label>Password...</label>
-                <md-input v-model="password"></md-input>
+                <md-input v-model="password" type="password"></md-input>
               </md-field>
-              <md-button slot="footer" class="md-simple md-success md-lg">Login</md-button>
+              <md-button
+                slot="footer"
+                class="md-simple md-success md-lg"
+                @click.prevent="login"
+              >Login</md-button>
             </login-card>
           </div>
         </div>
@@ -41,10 +45,17 @@ export default {
   data() {
     return {
       image: require('@/assets/img/bg-header-3.jpg'),
-      firstname: null,
       email: null,
       password: null
     };
+  },
+  methods: {
+    login() {
+      // TODO: Implement using GraphQL Login functionality
+      console.log(
+        'Login: ' + { email: this.email, password: this.password }.toString()
+      );
+    }
   }
 };
 </script>
