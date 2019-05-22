@@ -1,9 +1,15 @@
 <template>
   <div class="wrapper">
-    <parallax class="page-header header-filter" parallax-active="false" :style="headerStyle">
+    <parallax
+      class="page-header header-filter"
+      parallax-active="false"
+      :style="headerStyle"
+    >
       <div class="container">
         <div class="md-layout">
-          <div class="md-layout-item md-size-80 md-small-size-100 mx-auto text-center">
+          <div
+            class="md-layout-item md-size-80 md-small-size-100 mx-auto text-center"
+          >
             <md-card class="md-card md-card-signup">
               <md-card-content>
                 <h2 class="card-title text-center">Register</h2>
@@ -12,7 +18,11 @@
                     class="md-layout-item md-size-70 md-medium-size-80 md-small-size-100 center-input"
                   >
                     <form>
-                      <md-field class="md-form-group" v-for="item in inputs" :key="item.name">
+                      <md-field
+                        class="md-form-group"
+                        v-for="item in inputs"
+                        :key="item.name"
+                      >
                         <md-icon>{{ item.icon }}</md-icon>
                         <label>{{ item.name }}</label>
                         <md-input
@@ -29,7 +39,8 @@
                         <md-button
                           href="javascript:void(0)"
                           class="md-success md-round mt-3"
-                        >Register</md-button>
+                          >Register</md-button
+                        >
                       </div>
                     </form>
                   </div>

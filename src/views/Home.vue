@@ -1,18 +1,22 @@
 <template>
   <div class="wrapper">
-    <parallax class="section page-header header-filter" parallax-active="true" :style="headerStyle">
+    <parallax
+      class="section page-header header-filter"
+      parallax-active="true"
+      :style="headerStyle"
+    >
       <div class="container">
         <div class="md-layout">
           <div class="md-layout-item md-size-50 md-small-size-100">
             <!-- Dynamic title from the database -->
             <h1 class="title">Server Name Here</h1>
             <h4>
-              Some desciription about your server should go here for display.
-              It could include level cap, rates, expansion, custom content and
-              any other information that you deem necessary to highlight your
-              wow server.
+              Some desciription about your server should go here for display. It
+              could include level cap, rates, expansion, custom content and any
+              other information that you deem necessary to highlight your wow
+              server.
             </h4>
-            <br>
+            <br />
           </div>
         </div>
       </div>
@@ -43,5 +47,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

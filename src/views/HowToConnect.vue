@@ -7,7 +7,9 @@
     >
       <div class="container">
         <div class="md-layout">
-          <div class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center">
+          <div
+            class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center"
+          >
             <h1 class="title">How to Connect</h1>
             <h4>Step by step on how to connect to our server.</h4>
           </div>
@@ -17,7 +19,9 @@
     <div class="main main-raised">
       <div class="section">
         <div class="md-layout">
-          <div class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center">
+          <div
+            class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center"
+          >
             <h1 class="title text-center"></h1>
           </div>
         </div>
@@ -45,5 +49,3 @@ export default {
   padding: 0px;
 }
 </style>
-
-

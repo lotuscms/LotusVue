@@ -23,7 +23,8 @@
                 slot="footer"
                 class="md-simple md-success md-lg"
                 @click.prevent="login"
-              >Login</md-button>
+                >Login</md-button
+              >
             </login-card>
           </div>
         </div>
